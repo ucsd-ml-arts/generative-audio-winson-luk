@@ -14,9 +14,8 @@ Briefly describe the files that are included with your repository:
 
 ## Code
 
-Your code for generating your project:
-- Python: generative_code.py
-- Jupyter notebooks: generative_code.ipynb
+- Python: [trio.py](python/trio.py)
+- Jupyter notebook: [trio_notebook.ipynb](python/trio_notebook.ipynb)
 
 ## Results
 
