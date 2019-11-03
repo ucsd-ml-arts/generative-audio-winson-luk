@@ -33,6 +33,4 @@ Any implementation details or notes we need to repeat your work.
 ## Reference
 
 References to any papers, techniques, repositories you used:
-- Papers
-- Repositories
-- Blog posts
+- https://soundcloud.com/macoos1337/thomas-the-bonfire
