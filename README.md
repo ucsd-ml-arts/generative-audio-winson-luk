@@ -8,9 +8,9 @@ Include your abstract here. This should be one paragraph clearly describing your
 
 ## Model/Data
 
-Briefly describe the files that are included with your repository:
-- trained models
-- training data (or link to training data)
+Model: https://storage.googleapis.com/magentadata/models/music_vae/checkpoints/hierdec-trio_16bar.tar
+Sample MIDI output: [hierdec_trio_16bar_sample_4.mid](midi/hierdec_trio_16bar_sample_4.mid)
+Logic Pro X project files: [logic_pro_projects](logic_pro_projects)
 
 ## Code
 
@@ -26,11 +26,16 @@ Briefly describe the files that are included with your repository:
 
 ## Technical Notes
 
-Any implementation details or notes we need to repeat your work. 
-- Does this code require other pip packages, software, etc?
-- Does it run on some other (non-datahub) platform? (CoLab, etc.)
+- Install Fluidsynth for Mac: `brew install fluidsynth && pip install pyfluidsynth`
+- Save and extract the [hierdec-trio_16bar model](https://storage.googleapis.com/magentadata/models/music_vae/checkpoints/hierdec-trio_16bar.tar) into `python/content`.
+- After installing `pyfluidsynth`, `magenta`, `jupyter`, and other required Python packages, run the notebook with `$ jupyter notebook`.
 
 ## Reference
 
-References to any papers, techniques, repositories you used:
-- [Thomas the Bonfire](https://soundcloud.com/macoos1337/thomas-the-bonfire) (inspiration)
+- [Music VAE](https://magenta.tensorflow.org/music-vae)
+- [Music VAE Github](https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae)
+- [Music VAE Colab](https://colab.research.google.com/notebooks/magenta/music_vae/music_vae.ipynb)
+- [Logic Pro X](https://www.apple.com/logic-pro/)
+- [Logic Pro X vocal extraction](https://www.youtube.com/watch?v=imv1BvaGp-s)
+- [Song BPM](https://songbpm.com)
+- [Thomas the Bonfire](https://soundcloud.com/macoos1337/thomas-the-bonfire)
