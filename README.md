@@ -21,8 +21,8 @@ Your code for generating your project:
 ## Results
 
 Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
-- [Logic - Everybody](https://soundcloud.com/user-604304255/bonfire_magenta)
-- [Childish Gambino - Bonfire](https://soundcloud.com/user-604304255/bonfire_magenta-1)
+- [Logic - Everybody](https://soundcloud.com/user-604304255/bonfire_magenta) (with muting)
+- [Childish Gambino - Bonfire](https://soundcloud.com/user-604304255/bonfire_magenta-1) (without muting)
 
 ## Technical Notes
 
