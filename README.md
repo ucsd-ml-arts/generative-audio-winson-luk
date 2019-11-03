@@ -21,7 +21,7 @@ Your code for generating your project:
 ## Results
 
 Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
-- [Logic - Everybody](https://soundcloud.com/user-604304255/bonfire_magenta) (with muting)
+- [Logic - Everybody](https://soundcloud.com/user-604304255/bonfire_magenta) (with manual muting)
 - [Childish Gambino - Bonfire](https://soundcloud.com/user-604304255/bonfire_magenta-1) (without muting)
 
 ## Technical Notes
@@ -33,4 +33,4 @@ Any implementation details or notes we need to repeat your work.
 ## Reference
 
 References to any papers, techniques, repositories you used:
-- https://soundcloud.com/macoos1337/thomas-the-bonfire
+- [Thomas the Bonfire](https://soundcloud.com/macoos1337/thomas-the-bonfire) (inspiration)
