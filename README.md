@@ -20,9 +20,10 @@ Your code for generating your project:
 
 ## Results
 
-Documentation of your results in an appropriate format, both links to files and a brief description of their contents:
-- [Logic - Everybody](https://soundcloud.com/user-604304255/bonfire_magenta) (with manual muting)
-- [Childish Gambino - Bonfire](https://soundcloud.com/user-604304255/bonfire_magenta-1) (without muting)
+- [Breed - Nirvana](https://soundcloud.com/user-604304255/breed_magenta)
+- [Logic - Everybody](https://soundcloud.com/user-604304255/everybody_magenta)
+- [Bad Guy - Billie Eilish](https://soundcloud.com/user-604304255/badguy_magenta)
+- [Childish Gambino - Bonfire](https://soundcloud.com/user-604304255/bonfire_magenta)
 
 ## Technical Notes
 
