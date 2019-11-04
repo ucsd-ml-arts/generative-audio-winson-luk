@@ -14,9 +14,10 @@ While the resulting songs do not sound as natural as the originals, with further
 
 ## Model/Data
 
-- Model: https://storage.googleapis.com/magentadata/models/music_vae/checkpoints/hierdec-trio_16bar.tar
-- Sample MIDI output: [hierdec_trio_16bar_sample_4.mid](midi/hierdec_trio_16bar_sample_4.mid)
-- Logic Pro X project files: [logic_pro_projects](logic_pro_projects)
+- The model can be downloaded from https://storage.googleapis.com/magentadata/models/music_vae/checkpoints/hierdec-trio_16bar.tar
+- A sample MIDI output is in [hierdec_trio_16bar_sample_4.mid](midi/hierdec_trio_16bar_sample_4.mid).
+- Logic Pro X project files are in [logic_pro_projects](logic_pro_projects).
+- Python and Jupyter files, along with sample MP3 results, are linked in this README below.
 
 ## Code
 
@@ -25,6 +26,8 @@ While the resulting songs do not sound as natural as the originals, with further
 
 ## Results
 
+MP3 results are in the `samples` folder and available on Soundcloud below:
+
 - [Breed - Nirvana](https://soundcloud.com/user-604304255/breed_magenta)
 - [Logic - Everybody](https://soundcloud.com/user-604304255/everybody_magenta)
 - [Bad Guy - Billie Eilish](https://soundcloud.com/user-604304255/badguy_magenta)
@@ -32,6 +35,7 @@ While the resulting songs do not sound as natural as the originals, with further
 
 ## Technical Notes
 
+- Run with Jupyter on macOS.
 - Install Fluidsynth for Mac: `brew install fluidsynth && pip install pyfluidsynth`
 - Save and extract the [hierdec-trio_16bar model](https://storage.googleapis.com/magentadata/models/music_vae/checkpoints/hierdec-trio_16bar.tar) into `python/content`.
 - After installing `pyfluidsynth`, `magenta`, `jupyter`, and other required Python packages, run the notebook with `$ jupyter notebook`.
