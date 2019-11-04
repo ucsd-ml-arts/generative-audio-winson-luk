@@ -4,19 +4,24 @@ Winson Luk, wluk@ucsd.edu
 
 ## Abstract
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
+AI-generated music is still far from replacing human musicians, but this project demonstrates that AI can produce music that is captivating enough to accompany many musicians.
+
+Google Magenta provides a trained Music VAE model to generate 16-bar trios with a lead, bass, and drums. After experimenting with different temperatures and other parameters to optimize for "catchiness," the MIDI can be exported to a DAW such as Logic Pro X to process with vocals.
+
+To exhibit the versitility of Music VAE's MIDI trios, the same repeating MIDI accompanies vocalists across the top three Western music genres: rock, pop, and hip hop. Songs with relatively non-melodic vocals have been chosen since the MIDI is scaleless and keyless. Across the three songs, the AI-generated MIDI remains unchanged - the only human inputs are the choice of instrumentation and occasional track muting, attuned to the original song.
+
+While the resulting songs do not sound as natural as the originals, with further processing, they could potentially pass an auditory Turing test.
 
 ## Model/Data
 
-Briefly describe the files that are included with your repository:
-- trained models
-- training data (or link to training data)
+- Model: https://storage.googleapis.com/magentadata/models/music_vae/checkpoints/hierdec-trio_16bar.tar
+- Sample MIDI output: [hierdec_trio_16bar_sample_4.mid](midi/hierdec_trio_16bar_sample_4.mid)
+- Logic Pro X project files: [logic_pro_projects](logic_pro_projects)
 
 ## Code
 
-Your code for generating your project:
-- Python: generative_code.py
-- Jupyter notebooks: generative_code.ipynb
+- Python: [trio.py](python/trio.py)
+- Jupyter notebook: [trio_notebook.ipynb](python/trio_notebook.ipynb)
 
 ## Results
 
@@ -27,11 +32,16 @@ Your code for generating your project:
 
 ## Technical Notes
 
-Any implementation details or notes we need to repeat your work. 
-- Does this code require other pip packages, software, etc?
-- Does it run on some other (non-datahub) platform? (CoLab, etc.)
+- Install Fluidsynth for Mac: `brew install fluidsynth && pip install pyfluidsynth`
+- Save and extract the [hierdec-trio_16bar model](https://storage.googleapis.com/magentadata/models/music_vae/checkpoints/hierdec-trio_16bar.tar) into `python/content`.
+- After installing `pyfluidsynth`, `magenta`, `jupyter`, and other required Python packages, run the notebook with `$ jupyter notebook`.
 
 ## Reference
 
-References to any papers, techniques, repositories you used:
-- [Thomas the Bonfire](https://soundcloud.com/macoos1337/thomas-the-bonfire) (inspiration)
+- [Music VAE](https://magenta.tensorflow.org/music-vae)
+- [Music VAE Github](https://github.com/tensorflow/magenta/tree/master/magenta/models/music_vae)
+- [Music VAE Colab](https://colab.research.google.com/notebooks/magenta/music_vae/music_vae.ipynb)
+- [Logic Pro X](https://www.apple.com/logic-pro/)
+- [Logic Pro X vocal extraction](https://www.youtube.com/watch?v=imv1BvaGp-s)
+- [Song BPM](https://songbpm.com)
+- [Thomas the Bonfire](https://soundcloud.com/macoos1337/thomas-the-bonfire)
