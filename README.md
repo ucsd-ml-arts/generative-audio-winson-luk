@@ -8,7 +8,7 @@ AI-generated music is still far from replacing human musicians, but this project
 
 Google Magenta provides a trained Music VAE model to generate 16-bar trios with a lead, bass, and drums. After experimenting with different temperatures and other parameters to optimize for "catchiness," the MIDI can be exported to a DAW such as Logic Pro X to process with vocals.
 
-To exhibit the versitility of Music VAE's MIDI trios, the same repeating MIDI accompanies vocalists across the top three Western music genres: rock, pop, and hip hop. Songs with relatively non-melodic vocals have been chosen since the MIDI is scaleless and keyless. Across the three songs, the AI-generated MIDI remains unchanged - the only human inputs are the choice of instrumentation and occasional track muting, attuned to the original song.
+To exhibit the versitility of Music VAE's MIDI trios, the same repeating MIDI accompanies vocalists across the top three Western music genres: rock, hip hop, and pop. Songs with relatively non-melodic vocals have been chosen since the MIDI is scaleless and keyless. Across the three songs, the AI-generated MIDI remains unchanged - the only human inputs are the choice of instrumentation and occasional track muting, attuned to the original song.
 
 While the resulting songs do not sound as natural as the originals, with further processing, they could potentially pass an auditory Turing test.
 
@@ -26,11 +26,14 @@ While the resulting songs do not sound as natural as the originals, with further
 
 ## Results
 
-MP3 results are in the `samples` folder and available on Soundcloud below:
+Certain portions of the AI-generated MIDI are muted for musical effect. MP3 results are in the `samples` folder, and available on Soundcloud below:
 
-- [Breed - Nirvana](https://soundcloud.com/user-604304255/breed_magenta)
-- [Logic - Everybody](https://soundcloud.com/user-604304255/everybody_magenta)
-- [Bad Guy - Billie Eilish](https://soundcloud.com/user-604304255/badguy_magenta)
+- Rock: [Breed - Nirvana](https://soundcloud.com/user-604304255/breed_magenta)
+- Hip hop: [Logic - Everybody](https://soundcloud.com/user-604304255/everybody_magenta)
+- Pop: [Bad Guy - Billie Eilish](https://soundcloud.com/user-604304255/badguy_magenta)
+
+Additionally, here is an example of a song *without* any muting or other processing.
+
 - [Childish Gambino - Bonfire](https://soundcloud.com/user-604304255/bonfire_magenta)
 
 ## Technical Notes
