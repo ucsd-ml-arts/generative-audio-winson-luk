@@ -26,6 +26,8 @@ While the resulting songs do not sound as natural as the originals, with further
 
 ## Results
 
+MIDI: [hierdec_trio_16bar_sample_4.mid](midi/hierdec_trio_16bar_sample_4.mid)
+
 Certain portions of the AI-generated MIDI are muted for musical effect. MP3 results are in the `samples` folder, and available on Soundcloud below:
 
 - Rock: [Breed - Nirvana](https://soundcloud.com/user-604304255/breed_magenta)
