@@ -4,13 +4,19 @@ Winson Luk, wluk@ucsd.edu
 
 ## Abstract
 
-Include your abstract here. This should be one paragraph clearly describing your concept, method, and results. This should tell us what architecture/approach you used. Also describe your creative goals, and whether you were successful in achieving them. Also could describe future directions.
+AI-generated music is still far from replacing human musicians, but this project demonstrates that AI can produce music that is captivating enough to accompany many musicians.
+
+Google Magenta provides a trained Music VAE model to generate 16-bar trios with a lead, bass, and drums. After experimenting with different temperatures and other parameters to optimize for "catchiness," the MIDI can be exported to a DAW such as Logic Pro X to process with vocals.
+
+To exhibit the versitility of Music VAE's MIDI trios, the same MIDI accompanies vocalists across the top three Western music genres: rock, pop, and hip hop. The MIDI remains unchanged - the only human inputs are the choice of instrumentation and occasional track muting.
+
+While the resulting songs do not sound as natural as the originals, they might be able to pass an auditory Turing test.
 
 ## Model/Data
 
-Model: https://storage.googleapis.com/magentadata/models/music_vae/checkpoints/hierdec-trio_16bar.tar
-Sample MIDI output: [hierdec_trio_16bar_sample_4.mid](midi/hierdec_trio_16bar_sample_4.mid)
-Logic Pro X project files: [logic_pro_projects](logic_pro_projects)
+- Model: https://storage.googleapis.com/magentadata/models/music_vae/checkpoints/hierdec-trio_16bar.tar
+- Sample MIDI output: [hierdec_trio_16bar_sample_4.mid](midi/hierdec_trio_16bar_sample_4.mid)
+- Logic Pro X project files: [logic_pro_projects](logic_pro_projects)
 
 ## Code
 
