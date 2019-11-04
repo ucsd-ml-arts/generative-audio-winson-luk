@@ -8,9 +8,9 @@ AI-generated music is still far from replacing human musicians, but this project
 
 Google Magenta provides a trained Music VAE model to generate 16-bar trios with a lead, bass, and drums. After experimenting with different temperatures and other parameters to optimize for "catchiness," the MIDI can be exported to a DAW such as Logic Pro X to process with vocals.
 
-To exhibit the versitility of Music VAE's MIDI trios, the same MIDI accompanies vocalists across the top three Western music genres: rock, pop, and hip hop. The MIDI remains unchanged - the only human inputs are the choice of instrumentation and occasional track muting.
+To exhibit the versitility of Music VAE's MIDI trios, the same repeating MIDI accompanies vocalists across the top three Western music genres: rock, pop, and hip hop. Songs with relatively non-melodic vocals have been chosen since the MIDI is scaleless and keyless. Across the three songs, the AI-generated MIDI remains unchanged - the only human inputs are the choice of instrumentation and occasional track muting, attuned to the original song.
 
-While the resulting songs do not sound as natural as the originals, they might be able to pass an auditory Turing test.
+While the resulting songs do not sound as natural as the originals, with further processing, they could potentially pass an auditory Turing test.
 
 ## Model/Data
 
